@@ -19,7 +19,7 @@ const store = createStore(
   rootReducer
 )
 
-document.title = 'Equihome CRM'
+document.title = 'Equihome Mortgage CRM'
 
 ReactDOM.render(
   <Provider store={store}>

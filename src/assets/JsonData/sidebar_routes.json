@@ -5,24 +5,24 @@
         "icon": "bx bx-category-alt"
     },
     {
-        "display_name": "Customers",
-        "route": "/customers",
+        "display_name": "opportunities",
+        "route": "/opportunities",
         "icon": "bx bx-user-pin"
     },
     {
-        "display_name": "T.C.",
-        "route": "/transaction",
+        "display_name": "Transaction Coordinator",
+        "route": "/tc",
         "icon": "bx bx-paperclip"
     },
     {
         "display_name": "Lock Desk",
-        "route": "/lock",
+        "route": "/lock-desk",
         "icon": "bx bx-lock-alt"
     },
     {
         "display_name": "Processing",
-        "route": "/orders",
-        "icon": "bx bx-list-check"
+        "route": "/processing",
+        "icon": "bx bx-collection"
     },
     {
         "display_name": "Funding",
@@ -31,8 +31,8 @@
     },
     {
         "display_name": "Post Closing",
-        "route": "/categories",
-        "icon": "bx bx-list-ol"
+        "route": "/post-closing",
+        "icon": "bx bx-check-shield"
     },
     {
         "display_name": "ignition",
@@ -41,7 +41,7 @@
     },
     {
         "display_name": "call center",
-        "route": "/callcenter",
+        "route": "/call-center",
         "icon": "bx bx-phone-call"
     },
     {

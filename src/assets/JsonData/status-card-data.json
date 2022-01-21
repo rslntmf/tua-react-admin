@@ -1,22 +1,22 @@
 [
     {
-        "icon": "bx bxs-bank",
-        "count": "$934,995,863",
-        "title": "YTD Mortgage Volume"
+
+        "count": "$2,934,995,863",
+        "title": "YTD"
     },
     {
-        "icon": "bx bx-cart",
-        "count": "2,001",
-        "title": "Daily visits"
+
+        "count": "$534,995,863",
+        "title": "QTR"
     },
     {
-        "icon": "bx bx-dollar-circle",
-        "count": "$2,632",
-        "title": "Total income"
+      
+        "count": "$142,632,987",
+        "title": "January"
     },
     {
-        "icon": "bx bx-receipt",
-        "count": "1,711",
-        "title": "Total orders"
+
+        "count": "$31,711,345",
+        "title": "January 10-14, 2022"
     }
 ]
