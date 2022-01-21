@@ -16,11 +16,11 @@ import statusCards from '../assets/JsonData/status-card-data.json'
 
 const chartOptions = {
     series: [{
-        name: 'Brokered Funded',
-        data: [150,190,220,190,236,180,230,191,260,210]
+        name: '2021 Goal',
+        data: [150,190,220,190,236,180,230,191,260,210,200,230]
     }, {
-        name: 'Corespondent Funded',
-        data: [170, 230, 207, 180, 240, 216, 240, 220, 251, 210]
+        name: '2021 Actual',
+        data: [170, 230, 207, 180, 240, 216, 240, 220, 251, 210,220,225]
     }],
     options: {
         color: ['#6ab04c', '#2980b9'],
