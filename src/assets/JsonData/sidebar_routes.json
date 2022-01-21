@@ -10,6 +10,11 @@
         "icon": "bx bx-user-pin"
     },
     {
+        "display_name": "Loan Originators",
+        "route": "/lo",
+        "icon": "bx bxs-user-account"
+    },
+    {
         "display_name": "Transaction Coordinator",
         "route": "/tc",
         "icon": "bx bx-paperclip"
