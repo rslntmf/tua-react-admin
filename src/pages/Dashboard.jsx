@@ -16,11 +16,11 @@ import statusCards from '../assets/JsonData/status-card-data.json'
 
 const chartOptions = {
     series: [{
-        name: 'Online Customers',
-        data: [40,70,20,90,36,80,30,91,60]
+        name: 'Brokered Funded',
+        data: [150,190,220,190,236,180,230,191,260,210]
     }, {
-        name: 'Store Customers',
-        data: [40, 30, 70, 80, 40, 16, 40, 20, 51, 10]
+        name: 'Corespondent Funded',
+        data: [170, 230, 207, 180, 240, 216, 240, 220, 251, 210]
     }],
     options: {
         color: ['#6ab04c', '#2980b9'],
@@ -34,7 +34,7 @@ const chartOptions = {
             curve: 'smooth'
         },
         xaxis: {
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct']
         },
         legend: {
             position: 'top'
@@ -48,8 +48,8 @@ const chartOptions = {
 const topCustomers = {
     head: [
         'loan Officer',
-        'total loans',
-        'total revenue'
+        'loans',
+        'revenue'
     ],
     body: [
         {
@@ -94,56 +94,56 @@ const renderCusomerBody = (item, index) => (
 
 const latestOrders = {
     header: [
-        "order id",
-        "user",
-        "total price",
-        "date",
+        "customer id",
+        "borrower",
+        "loan amount",
+        "close date",
         "status"
     ],
     body: [
         {
             id: "#OD1711",
-            user: "john doe",
-            date: "17 Jun 2021",
-            price: "$900",
-            status: "shipping"
-        },
-        {
-            id: "#OD1712",
-            user: "frank iva",
-            date: "1 Jun 2021",
-            price: "$400",
-            status: "paid"
+            user: "james bond",
+            date: "17 Feb 2022",
+            price: "$303,900",
+            status: "processing"
         },
         {
             id: "#OD1713",
-            user: "anthony baker",
-            date: "27 Jun 2021",
-            price: "$200",
-            status: "pending"
+            user: "karl malone",
+            date: "27 Jan 2022",
+            price: "$245,050",
+            status: "conditions"
+        },
+        {
+            id: "#OD1612",
+            user: "ryan smith",
+            date: "1 Feb 2022",
+            price: "$483,001",
+            status: "conditions"
         },
         {
             id: "#OD1712",
-            user: "frank iva",
-            date: "1 Jun 2021",
-            price: "$400",
-            status: "paid"
+            user: "dwayne wayde",
+            date: "1 Jan 2022",
+            price: "$246,720",
+            status: "funded"
         },
         {
-            id: "#OD1713",
-            user: "anthony baker",
-            date: "27 Jun 2021",
-            price: "$200",
-            status: "refund"
+            id: "#OD1513",
+            user: "jeff bezos",
+            date: "27 Dec 2021",
+            price: "$238,190",
+            status: "funded"
         }
     ]
 }
 
 const orderStatus = {
-    "shipping": "primary",
-    "pending": "warning",
-    "paid": "success",
-    "refund": "danger"
+    "processing": "primary",
+    "conditions": "warning",
+    "funded": "success",
+    "lost": "danger"
 }
 
 const renderOrderHead = (item, index) => (
@@ -168,7 +168,7 @@ const Dashboard = () => {
 
     return (
         <div>
-            <h2 className="page-header">Dashboard</h2>
+            <h2 className="page-header">Admin Dashboard</h2>
             <div className="row">
                 <div className="col-6">
                     <div className="row">
@@ -205,7 +205,7 @@ const Dashboard = () => {
                 <div className="col-4">
                     <div className="card">
                         <div className="card__header">
-                            <h3>top customers</h3>
+                            <h3>top Loan originators</h3>
                         </div>
                         <div className="card__body">
                             <Table
@@ -223,7 +223,7 @@ const Dashboard = () => {
                 <div className="col-8">
                     <div className="card">
                         <div className="card__header">
-                            <h3>latest orders</h3>
+                            <h3>current accounts</h3>
                         </div>
                         <div className="card__body">
                             <Table

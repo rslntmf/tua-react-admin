@@ -10,34 +10,39 @@
         "icon": "bx bx-user-pin"
     },
     {
-        "display_name": "Products",
-        "route": "/products",
-        "icon": "bx bx-package"
+        "display_name": "T.C.",
+        "route": "/transaction",
+        "icon": "bx bx-paperclip"
     },
     {
-        "display_name": "Orders",
+        "display_name": "Lock Desk",
+        "route": "/lock",
+        "icon": "bx bx-lock-alt"
+    },
+    {
+        "display_name": "Processing",
         "route": "/orders",
-        "icon": "bx bx-cart"
+        "icon": "bx bx-list-check"
     },
     {
-        "display_name": "Analytics",
+        "display_name": "Funding",
         "route": "/analytics",
         "icon": "bx bx-bar-chart-alt"
     },
     {
-        "display_name": "categories",
+        "display_name": "Post Closing",
         "route": "/categories",
         "icon": "bx bx-list-ol"
     },
     {
-        "display_name": "discount",
-        "route": "/discount",
-        "icon": "bx bx-gift"
+        "display_name": "ignition",
+        "route": "/ignition",
+        "icon": "bx bx-rocket"
     },
     {
-        "display_name": "inventory",
-        "route": "/inventory",
-        "icon": "bx bx-store-alt"
+        "display_name": "call center",
+        "route": "/callcenter",
+        "icon": "bx bx-phone-call"
     },
     {
         "display_name": "settings",

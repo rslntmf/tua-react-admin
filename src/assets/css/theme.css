@@ -17,6 +17,12 @@
     --second-color: var(--second-color-purple);
 }
 
+.theme-color-green {
+    --main-color: var(--main-color-green);
+    --second-color: var(--second-color-green);
+}
+
+/*
 .theme-color-red {
     --main-color: var(--main-color-red);
     --second-color: var(--second-color-red);
@@ -27,12 +33,8 @@
     --second-color: var(--second-color-cyan);
 }
 
-.theme-color-green {
-    --main-color: var(--main-color-green);
-    --second-color: var(--second-color-green);
-}
-
 .theme-color-orange {
     --main-color: var(--main-color-orange);
     --second-color: var(--second-color-orange);
 }
+*/

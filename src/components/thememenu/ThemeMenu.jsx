@@ -1,9 +1,6 @@
 import React, {useRef, useState, useEffect} from 'react'
-
 import './thememenu.css'
-
 import { useDispatch } from 'react-redux'
-
 import ThemeAction from '../../redux/actions/ThemeAction'
 
 const mode_settings = [
@@ -11,23 +8,33 @@ const mode_settings = [
         id: 'light',
         name: 'Light',
         background: 'light-background',
-        class: 'theme-mode-light'
+        class: 'theme-mode-light',
+        logo: ''
     },
     {
         id: 'dark',
         name: 'Dark',
         background: 'dark-background',
-        class: 'theme-mode-dark'
+        class: 'theme-mode-dark',
+        logo: ''
     }
 ]
 
 const color_settings = [
     {
+        id: 'green',
+        name: 'Equihome Green',
+        background: 'green-color',
+        class: 'theme-color-green'
+    },
+
+    {
         id: 'purple',
-        name: 'purple',
+        name: 'Equihome Purple',
         background: 'purple-color',
         class: 'theme-color-purple'
     },
+    /*
     {
         id: 'red',
         name: 'Red',
@@ -40,18 +47,14 @@ const color_settings = [
         background: 'cyan-color',
         class: 'theme-color-cyan'
     },
-    {
-        id: 'green',
-        name: 'Green',
-        background: 'green-color',
-        class: 'theme-color-green'
-    },
+
     {
         id: 'orange',
         name: 'Orange',
         background: 'orange-color',
         class: 'theme-color-orange'
     },
+    */
 ]
 
 const clickOutsideRef = (content_ref, toggle_ref) => {

@@ -127,11 +127,17 @@ input:focus {
     color: #fff;
 }
 
+.green-color {
+    background-color: var(--main-color-green);
+    color: #fff;
+}
+
 .purple-color {
     background-color: var(--main-color-purple);
     color: #fff;
 }
 
+/*
 .red-color {
     background-color: var(--main-color-red);
     color: #fff;
@@ -142,12 +148,8 @@ input:focus {
     color: #fff;
 }
 
-.green-color {
-    background-color: var(--main-color-green);
-    color: #fff;
-}
-
 .orange-color {
     background-color: var(--main-color-orange);
     color: #fff;
 }
+*/
