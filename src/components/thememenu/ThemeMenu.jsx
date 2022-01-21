@@ -23,10 +23,10 @@ const mode_settings = [
 
 const color_settings = [
     {
-        id: 'blue',
-        name: 'Blue',
-        background: 'blue-color',
-        class: 'theme-color-blue'
+        id: 'purple',
+        name: 'purple',
+        background: 'purple-color',
+        class: 'theme-color-purple'
     },
     {
         id: 'red',
@@ -81,7 +81,7 @@ const ThemeMenu = () => {
 
     const [currMode, setcurrMode] = useState('light')
 
-    const [currColor, setcurrColor] = useState('blue')
+    const [currColor, setcurrColor] = useState('purple')
 
     const dispatch = useDispatch()
 

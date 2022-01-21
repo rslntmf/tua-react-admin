@@ -10,8 +10,8 @@ const customerTableHead = [
     'email',
     'phone',
     'total orders',
-    'total spend',
-    'location'
+    'loan',
+    'property'
 ]
 
 const renderHead = (item, index) => <th key={index}>{item}</th>

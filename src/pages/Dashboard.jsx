@@ -47,35 +47,35 @@ const chartOptions = {
 
 const topCustomers = {
     head: [
-        'user',
-        'total orders',
-        'total spending'
+        'loan Officer',
+        'total loans',
+        'total revenue'
     ],
     body: [
         {
-            "username": "john doe",
-            "order": "490",
-            "price": "$15,870"
+            "username": "Sam Schwalenburg",
+            "order": "25",
+            "price": "$35,870"
         },
         {
-            "username": "frank iva",
-            "order": "250",
-            "price": "$12,251"
+            "username": "Alex Dierks",
+            "order": "31",
+            "price": "$42,251"
         },
         {
-            "username": "anthony baker",
-            "order": "120",
-            "price": "$10,840"
+            "username": "Brittany Roxburgh",
+            "order": "35",
+            "price": "$45,840"
         },
         {
-            "username": "frank iva",
-            "order": "110",
-            "price": "$9,251"
+            "username": "Dustin Dumestre",
+            "order": "40",
+            "price": "$52,251"
         },
         {
-            "username": "anthony baker",
-            "order": "80",
-            "price": "$8,840"
+            "username": "Rylee Stanley",
+            "order": "38",
+            "price": "$49,840"
         }
     ]
 }

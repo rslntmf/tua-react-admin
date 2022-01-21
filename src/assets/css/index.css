@@ -19,8 +19,8 @@
     --txt-color-dark: #bbbbbb;
     --box-shadow-dark: rgba(0, 0, 0, 0.2) 0px 5px 10px;
 
-    --main-color-blue: #349eff;
-    --second-color-blue: #62b4ff;
+    --main-color-purple: #4F51BD;
+    --second-color-purple: #7A7CDA;
 
     --main-color-red: #fb0b12;
     --second-color-red: #ff4a6b;
@@ -28,8 +28,8 @@
     --main-color-cyan: #10d4d2;
     --second-color-cyan: #2ae9e6;
 
-    --main-color-green: #019707;
-    --second-color-green: #4caf50;
+    --main-color-green: #8DC679;
+    --second-color-green: #B3EA9F;
 
     --main-color-orange: #d68102;
     --second-color-orange: #fca11a;
@@ -127,8 +127,8 @@ input:focus {
     color: #fff;
 }
 
-.blue-color {
-    background-color: var(--main-color-blue);
+.purple-color {
+    background-color: var(--main-color-purple);
     color: #fff;
 }
 
